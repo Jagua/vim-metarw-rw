@@ -1,0 +1,28 @@
+# vim-metarw-rw
+
+**vim-metarw-rw** is a Vim plugin to provide filer.
+
+
+
+This plugin depends on:
+
+* [vim-metarw](https://github.com/kana/vim-metarw)
+* [vim-external](https://github.com/itchyny/vim-external)
+
+Latest: https://github.com/Jagua/vim-metarw-rw
+
+
+## Usage
+
+```vim
+:e rw:~/
+```
+
+
+## Key mappings
+
+* **`<Plug>(metarw-rw-open-external)`** (default: `x`)
+* ~~**`<Plug>(metarw-rw-create-file)`**(default: `Cf`)~~
+* ~~**`<Plug>(metarw-rw-create-directory)`**(default: `Cd`)~~
+* ~~**`<Plug>(metarw-rw-rename)`**(default: `R`)~~
+* ~~**`<Plug>(metarw-rw-delete)`**(default: `D`)~~

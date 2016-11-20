@@ -1,0 +1,58 @@
+*metarw-rw.txt*  metarw scheme: rw
+
+Version: 0.1.0
+Author: Jagua
+License: MIT License
+
+
+
+==============================================================================
+INTRODUCTION                                          *metarw-rw-introduction*
+
+|metarw-rw| is a scheme for |metarw| to read/write/list files.
+
+
+Requirements:
+- Vim
+- |metarw|
+- |external|
+  https://github.com/itchyny/vim-external
+
+Latest version:
+https://github.com/Jagua/vim-metarw-rw
+
+
+
+==============================================================================
+INTERFACE                                                *metarw-rw-interface*
+
+------------------------------------------------------------------------------
+KEY MAPPINGS                                          *metarw-rw-key-mappings*
+
+<Plug>(metarw-rw-open-external)              *<Plug>(metarw-rw-open-external)*
+        open a file with system default application.
+        (default: x)
+
+
+see |g:metarw_no_default_key_mappings| about |metarw| default key mappings.
+
+
+==============================================================================
+EXAMPLES                                                  *metarw-rw-examples*
+
+>
+        :e rw:~/
+<
+
+
+
+==============================================================================
+CHANGELOG                                                *metarw-rw-changelog*
+
+0.1.0   2016-11-20
+        - Initial version.
+
+
+
+==============================================================================
+vim:tw=78:ts=8:sw=2:ft=help:et:norl:fen:fdl=0:
