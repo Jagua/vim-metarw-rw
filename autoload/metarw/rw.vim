@@ -61,7 +61,7 @@ endfunction "}}}
 
 function! s:parse_incomplete_fakepath(incomplete_fakepath) abort "{{{
   let _ = {}
-  let fragments = split(a:incomplete_fakepath, ':')
+  let fragments = split(a:incomplete_fakepath, ':', !0)
   let _.fakepath = a:incomplete_fakepath
   let _.scheme = fragments[0]
   let _.path = len(fragments) > 1 ? expand(join(fragments[1:], ':')) : ''
