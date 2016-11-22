@@ -46,7 +46,7 @@ endfunction "}}}
 
 function! metarw#rw#write(fakepath, line1, line2, append_p) abort "{{{
   let _ = s:parse_incomplete_fakepath(a:fakepath)
-  if filereadable(_.path)
+  if filewritable(_.path)
     return ['write', _.path]
   else
     return ['error', 'failed to write.']
